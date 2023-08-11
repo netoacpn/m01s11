@@ -1,0 +1,22 @@
+header{
+  background-color: #1a1a2b;
+  color: white;  
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.div-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  padding: 50px;
+}

@@ -1,0 +1,17 @@
+/* Button.css */
+.custom-button {
+  background-color: rgba(100, 0, 255, 0.05); /* Cor azul com 40% de opacidade */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+  backdrop-filter: blur(10px); /* Efeito de desfoque do fundo semelhante ao vidro */
+}
+
+.custom-button:hover {
+  background-color: rgba(100, 0, 255, 0.4);
+  border: 1px solid white;
+}
