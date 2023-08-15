@@ -3,26 +3,15 @@ import React from "react"
 import Button from "../button"
 
 function Header(){
-  function handleClickHome(){
-    alert("Home")
-  }
-  function handleClickAbout(){
-    alert("About me")
-  }
-  function handleClickPortfolio(){
-    alert("Portfolio")
-  }
-  function handleClick404(){
-    alert("Erro 404")
-  }
+
   return(
     <>
       <header>
         <div className="div-btn">
-          <div className="btn"><Button text="Home" onClick={handleClickHome}/></div>
-          <div className="btn"><Button text="About me" onClick={handleClickAbout}/></div>
-          <div className="btn"><Button text="Portfolio" onClick={handleClickPortfolio}/></div>
-          <div className="btn"><Button text="Erro 404" onClick={handleClick404}/></div>
+          <div className="btn"><Button to="/" text="Home"/></div>
+          <div className="btn"><Button to="/about-me" text="About me"/></div>
+          <div className="btn"><Button to="/portfolio" text="Portfolio"/></div>
+          <div className="btn"><Button to="*" text="Erro 404"/></div>          
         </div>
       </header>
     </>

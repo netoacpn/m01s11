@@ -1,11 +1,13 @@
 import { Header } from "../../components/header";
 import { Footer } from "../../components/footer";
+import { Carousel } from "react-bootstrap";
 
 function Home(){
   return(
     <>
       <Header />
-      <h1>Hello World!</h1>
+      <Carousel>
+      </Carousel>     
       <Footer />
     </>
   )

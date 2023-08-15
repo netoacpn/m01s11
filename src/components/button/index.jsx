@@ -1,11 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 
-const Button = ({ text, onClick }) => {
+const Button = ({ to, text, onClick }) => {
   return (
-    <button className="custom-button" onClick={onClick}>
-      {text}
-    </button>
+    <Link to={to}>
+      <button className="custom-button" onClick={onClick}>
+        {text}
+      </button>
+    </Link>    
   );
 };
 
